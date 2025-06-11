@@ -1,1 +1,2 @@
 nameOverride: "prom-2"
+namespaceOverride: "prome"
