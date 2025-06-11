@@ -1,2 +1,5 @@
 nameOverride: "prom-2"
-namespaceOverride: "prome"
+additionalScrapeConfigsSecret:
+  enabled: true
+  name: additional-scrape-configs
+  key: prometheus-additional.yaml
